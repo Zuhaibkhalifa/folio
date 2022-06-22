@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../images/img1.png";
 import IMG2 from "../../images/img2.png";
 import IMG3 from "../../images/img3.png";
 import IMG4 from "../../images/img4.png";

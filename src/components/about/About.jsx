@@ -20,24 +20,25 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ years of ecperienc</small>
+              <h5>Professional Experience</h5>
+              <small>Fresher</small>
             </article>
             <article className="about__card">
               <BsClipboardData className="about__icon" />
-              <h5>clients</h5>
-              <small>my clients</small>
+              <h5>Interest</h5>
+              <small>Web Development</small>
             </article>
             <article className="about__card">
               <MdWork className="about__icon" />
               <h5>projects</h5>
-              <small>5+ projects</small>
+              <small>2+ projects</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Cupiditate, accusamus dolorem maxime sint voluptatem adipisci minima
-            non quod voluptates quis!
+            I'm Zuhaib, and I graduated from the visvesvaraya in 2022 with a
+            bachelors degree in Computer Science. My interests are in Front End
+            Engineering, and I love to create beautiful and performant products
+            with delightful user experiences.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

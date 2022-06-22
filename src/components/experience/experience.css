@@ -4,7 +4,7 @@
 }
 
 .experience__container > div {
-  background: var(--color-highlight-dark);
+  background: var(--color-white);
   padding: 2.4rem 5rem;
   border-radius: 2rem;
   border: 2px solid transparent;

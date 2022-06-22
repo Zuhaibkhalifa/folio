@@ -28,7 +28,7 @@ function experience() {
             <article className="experience__Details">
               <BsCheckSquareFill className="experience__Details-icons" />
               <div>
-                <h4>bootstrap</h4>
+                <h4>Bootstrap</h4>
                 <small className="text-light">intermediate</small>
               </div>
             </article>
@@ -50,14 +50,14 @@ function experience() {
               <BsCheckSquareFill className="experience__Details-icons" />
               <div>
                 <h4>Core-Java</h4>
-                <small className="text-light">intermediate</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
             <article className="experience__Details">
               <BsCheckSquareFill className="experience__Details-icons" />
               <div>
                 <h4>python</h4>
-                <small className="text-light">intermediate</small>
+                <small className="text-light">Beginner</small>
               </div>
             </article>
           </div>

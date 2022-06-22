@@ -11,8 +11,6 @@
 }
 
 :root {
-  --color-bg: #283d3b;
-  --color-primary: #197278;
   --color-secondary: #edddd4;
   --color-highlight: #c44536;
   --color-highlight-dark: #772e25;
@@ -34,8 +32,8 @@ html {
 
 body {
   font-family: "Roboto Mono", monospace;
-  background: var(--color-bg);
-  color: var(--color-white);
+  background: var(--color-white);
+  color: var(--color-highlight-dark);
   line-height: 1.7;
   background-image: url("./images/texture1.png");
 }
@@ -54,7 +52,8 @@ h2 {
 h3,
 h4,
 h5 {
-  font-weight: 200;
+  font-weight: 1rem;
+  font-size: 1rem;
 }
 
 h1 {
@@ -68,46 +67,46 @@ section {
 section > h2,
 section h5 {
   text-align: center;
-  color: var(--color-white);
+  color: var(--color-highlight-dark);
 }
 
 section > h3 {
-  color: var(--color-primary);
+  color: var(--color-highlight-dark);
   margin-bottom: 3rem;
 }
 
-.text_light {
-  color: var(--color-white);
-}
-
 a {
-  color: var(--color-highlight);
+  color: var(--color-highlight-dark);
   transition: var(--transition);
+  border: 2px solid var(--color-primary);
 }
 a:hover {
-  color: var(--color-highlight);
+  color: var(--color-primary);
 }
 
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-white);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: 400;
+  background: var(--color-highlight-dark);
+  border: 2px solid var(--color-highlight-dark);
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-secondary);
-  color: var(--color-highlight);
-  border: transparent;
+  background: var(--color-primary);
+  color: var(--color-highlight-dark);
+  border: 2px solid var(--color-highlight-dark);
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-highlight-dark);
+  color: var(--color-white);
 }
 
 img {

@@ -6,6 +6,7 @@ import IMG3 from "../../images/img3.png";
 import IMG4 from "../../images/img4.png";
 import IMG5 from "../../images/img5.png";
 import IMG6 from "../../images/img6.png";
+import IMG7 from "../../images/img7.png";
 
 function portfolio() {
   return (
@@ -16,7 +17,7 @@ function portfolio() {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={IMG7} alt="" />
           </div>
           <h3>Musically</h3>
           <div className="portfolio__item-cta">
@@ -27,7 +28,11 @@ function portfolio() {
             >
               Github
             </a>
-            <a href="" target="_blank" className="btn btn-primary">
+            <a
+              href="https://zuhaibkhalifa.github.io/Musically/"
+              target="_blank"
+              className="btn btn-primary"
+            >
               Live Demo
             </a>
           </div>
